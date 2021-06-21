@@ -11,8 +11,8 @@ int main() {						/* This program does not take direct command-line arguments */
 			printf("dec: %d\n", c);		/* Convert and display the current character as its decimal representation */
 			printf("hex: 0x%X\n", c);	/* Convert and display the current character as its hexidecimal representation */
 		}
-		else					/* Since we're only checking for the new line character in the if else statement, we can drop from else as we're not looking for anything. Requires a trailing semicolon to close. */
-			;
+		else					/* Since we're only checking for the new line character in the if else statement, */
+			;				/* we can drop from else as we're not looking for anything. Requires a trailing semicolon to close. */
 	}
 
 	return 0;
