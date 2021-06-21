@@ -22,7 +22,7 @@ int byte(char a) {					/* Begin by reading in the current character passed from 
 	int i;						/* Declare a counter variable */
 	for (i = 0; i < 8; i++) {			/* Initiate a counter and interate through the loop eight times */
 		printf("%d", !!((a << i) & 0x80));	/* Still trying to fully understand this mechanism, but I'll try to outline as best I can from left to right: */
-	}						/* Print out the single bit value of the left-most bit in the character by taking the character, 
+	}						/* Print out the single bit value of the left-most bit in the character by taking the character, */
 	printf("\n");					/* shifting the bits to the left one bit, then ANDing it against 0b10000000 to get the current Significant Bit */
 							/* then taking the inverse twice - first to negate the answer to a single bit, second to negate the single bit */
 	return 0;					/* value to it's original form. We then print these single bits individually for the character, then new line. */
