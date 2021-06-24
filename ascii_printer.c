@@ -11,8 +11,6 @@ void main() {
 			printf("dec: %d\n", c);
 			printf("hex: 0x%X\n", c);
 		}
-		else
-			;
 	}
 }
 
